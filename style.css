@@ -1,0 +1,17 @@
+:root {
+    --green: #b7ca81;
+    --green-light: #a0d6a1;
+    --pink: #d08791;
+}
+
+html {
+    background: linear-gradient(to bottom right, #dde8e2aa, #ddd9c5aa);
+}
+
+.baby-yoda {
+    width: 6em;
+    height: 4em;
+    border-radius: 3em 3em 4.5em 4.5em;
+    background: var(--green);
+    position:relative;
+}
