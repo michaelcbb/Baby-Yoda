@@ -14,4 +14,19 @@ html {
     border-radius: 3em 3em 4.5em 4.5em;
     background: var(--green);
     position:relative;
+
+    background-image:
+        radial-gradient(
+            circle at 1.5em,
+            #fff
+            #fff .25em,
+            transparent .3em
+        ),
+        radial-gradient(
+            circle at 1em
+
+        )
+        
+
+    ;    
 }
