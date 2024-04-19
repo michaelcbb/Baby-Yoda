@@ -29,7 +29,7 @@ html {
             transparent 1em
         );
 
-    background-position: 0.6em 0.35em, 0.7em 0.6em;
+    background-position: calc(0.6em - 0.5em) 0.35em, calc(0.7em - 0.5em) 0.6em;
     background-size: 2.75em 2em;
     background-repeat: repeat-x;
 
@@ -37,7 +37,13 @@ html {
 }
 
 @keyframes eyes {
-    to {
-        background-size: 2.75em 1.5em;
+    0% {
+        background-position: calc(0.6em - 0.5em) 0.35em, calc(0.7em - 0.5em) 0.6em;
+    }
+    50% {
+        background-position: calc(0.6em + 0.5em) 0.35em, calc(0.7em + 0.5em) 0.6em;
+    }
+    100% {
+        background-position: calc(0.6em - 0.5em) 0.35em, calc(0.7em - 0.5em) 0.6em;
     }
 }
